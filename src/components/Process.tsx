@@ -101,7 +101,14 @@ export default function Process() {
           }}
           className="absolute rounded-3xl overflow-hidden bg-[#121216]"
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-[#7C5CFC] via-[#4A3AAF] to-[#0A0A0C] opacity-80" />
+          <video
+  src="/video/vid.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute inset-0 w-full h-full object-cover"
+/>
           <div className="absolute bottom-4 left-4 text-xs text-[#F5F3EF] bg-black/40 backdrop-blur-sm px-3 py-1.5 rounded-full">
             generated scene
           </div>
